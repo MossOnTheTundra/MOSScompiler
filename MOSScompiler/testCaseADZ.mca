@@ -1,0 +1,18 @@
+-- testCaseADZ.mca
+--
+-- Demonstrates Input, Output, Simple Arithmetic, and Stringy things
+--
+-- Alexander Ziemann
+-- Compiler Construction @8AM
+-- 01/28/2020
+----------------------------------------------------
+
+begin
+
+   read(x);
+
+   read(y);
+
+   write("AbcDefGhijK");
+
+end

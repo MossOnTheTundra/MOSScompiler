@@ -1,0 +1,27 @@
+-- testCaseADZ.mca
+--
+-- Demonstrates Input, Output, Simple Arithmetic, and Stringy things
+--
+-- Alexander Ziemann
+-- Compiler Construction @8AM
+-- January 28th, 2020
+----------------------------------------------------
+
+begin
+
+
+   write("Give me two integers");
+   write("First Integer");
+   read(x);
+   write("Second Integer");
+   read(y);
+   z := x + y + x;
+   z := z + 8 - x;
+   write("The value of X is");
+   write(x);
+   write("The value of Y is");
+   z := z + (35 - y);
+   write("The value of X is now");
+   write(x);
+
+end

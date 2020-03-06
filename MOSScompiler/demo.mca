@@ -1,0 +1,17 @@
+-- demo.mic
+--
+-- Demonstrates Input, Output, and Simple Arithmetic
+--
+-- James L. Richards
+-- August 28, 2007
+----------------------------------------------------
+begin
+-- Read two integers.
+   read(x);
+   read(y);
+
+-- Do some calculations and display results.
+   z := x + y;
+   z := z - 5;
+   z := z + (20 - y) ;
+end
